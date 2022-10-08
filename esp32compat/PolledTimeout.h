@@ -1,6 +1,4 @@
-#ifndef __POLLEDTIMING_H__
-#define __POLLEDTIMING_H__
-
+#pragma once
 
 /*
  PolledTimeout.h - Encapsulation of a polled Timeout
@@ -251,4 +249,3 @@ using periodicMs = polledTimeout::timeoutTemplate<true>;
 
 }//esp32
 
-#endif

@@ -1,6 +1,4 @@
-#ifndef __POLLEDTIMING_H__
-#define __POLLEDTIMING_H__
-
+#pragma once
 
 /*
  PolledTimeout.h - Encapsulation of a polled Timeout
@@ -285,5 +283,4 @@ using periodicFastNs = polledTimeout::timeoutTemplate<true, YieldPolicy::DoNothi
  */
 
 }//esp8266
-
-#endif
+ 
